@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://master.dnsg1grfmt4l9.amplifyapp.com/#/swap',
+        href: 'https://exchange.charmanderdefi.com/#/swap',
       },
       {
         label: 'Liquidity',
-        href: 'https://master.dnsg1grfmt4l9.amplifyapp.com/#/pool',
+        href: 'https://exchange.charmanderdefi.com/#/pool',
       },
     ],
   },
