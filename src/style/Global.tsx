@@ -20,6 +20,14 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
+  .sc-eCssSg {
+    display: none;
+  }
+
+  .sc-eCssSg a {
+    display: none;
+  }
+
   .fZXDjo {
     color: #1B4693;
   }

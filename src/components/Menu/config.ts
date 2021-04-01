@@ -63,6 +63,25 @@ const config: MenuEntry[] = [
       },
     ],
   },
+  {
+    label: 'Telegram',
+    icon: 'MoreIcon',
+    items: [
+      {
+        label: 'Discussion',
+        href: 'http://t.me/charmanderdefidiscussion',
+      },
+      {
+        label: 'Announcement',
+        href: 'http://t.me/charmanderdefiannouncements',
+      },
+    ],
+  },
+  {
+    label: 'Twitter',
+    icon: 'MoreIcon',
+    href: 'https://twitter.com/Charmander_Defi',
+  },
 ]
 
 export default config
