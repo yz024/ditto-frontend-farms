@@ -149,14 +149,6 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly} />
       <div>
         <Divider />
-        <FlexLayout>
-          <Route exact path={`${path}`}>
-            {stakedOnly ? farmsList(stakedOnlyFarms, false) : farmsList(activeFarms, false)}
-          </Route>
-          <Route exact path={`${path}/history`}>
-            {farmsList(inactiveFarms, true)}
-          </Route>
-        </FlexLayout>
       </div>
       <Image src="/images/egg/8.png" alt="illustration" width={1538} height={1080} responsive />
     </Page >
@@ -164,6 +156,8 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
 }
 
 export default Farms
+
+
 
 /*
         <FlexLayout>
