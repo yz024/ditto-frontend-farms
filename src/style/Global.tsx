@@ -20,7 +20,7 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
-  .sc-eCssSg {
+  .sc-bkzZxe svg:first-child {
     display: none;
   }
 
