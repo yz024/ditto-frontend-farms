@@ -51,15 +51,15 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/goosedefi/',
+        href: 'https://github.com/charmanderdefi',
       },
       {
         label: 'Docs',
-        href: 'https://goosedefi.gitbook.io/goose-finance/',
+        href: 'https://charmanderdefi.gitbook.io/charmander-finance-1/',
       },
       {
         label: 'Blog',
-        href: 'https://goosefinance.medium.com/',
+        href: 'https://medium.com/@charmanderdefi/charmander-defi-fiery-yield-farming-255deab5f9ad'
       },
     ],
   },

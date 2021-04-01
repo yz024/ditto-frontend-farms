@@ -108,8 +108,8 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
             <div>CHAR-BNB: 24x</div>
             <div>BNB-BUSD: 6x</div>
             <div>USDT-BUSD: 6x</div>
-            <div>BTCB-BUSD: 6x</div>
-            <div>ETH-BUSD: 6x</div>
+            <div>BTCB-BNB: 6x</div>
+            <div>ETH-BNB: 6x</div>
             <div>DAI-BUSD: 6x</div>
             <div>USDC-BUSD: 6x</div>
             <div>DOT-BNB: 6x</div>
@@ -126,7 +126,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
             <div>BUSD: 2x</div>
             <div>BNB: 2x</div>
             <div>USDT: 1x</div>
-            <div>BTCB: 4x</div>
+            <div>BTCB: 2x</div>
             <div>ETH: 4x</div>
             <div>DAI: 1x</div>
             <div>USDC: 1x</div>
@@ -150,7 +150,6 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
       <div>
         <Divider />
       </div>
-      <Image src="/images/egg/8.png" alt="illustration" width={1538} height={1080} responsive />
     </Page >
   )
 }

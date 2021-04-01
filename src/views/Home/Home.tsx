@@ -59,6 +59,12 @@ const Home: React.FC = () => {
 
   return (
     <Page>
+      <Heading as="h1" size="md" mb="24px" color="secondary" style={{ textAlign: 'center' }}>
+        Fair Launch on 3 April 2021 0930 Central Time
+      </Heading>
+      <Heading as="h1" size="md" mb="24px" color="secondary" style={{ textAlign: 'center' }}>
+        Farming starts at block 6277777 <a href="https://bscscan.com/block/countdown/6277777" style={{ textDecoration: 'underline' }}>(Track Countdown)</a>
+      </Heading>
       <Hero>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
           {TranslateString(576, 'Goose Finance')}
