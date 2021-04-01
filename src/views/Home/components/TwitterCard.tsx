@@ -23,6 +23,8 @@ const Row = styled.div`
   margin-bottom: 8px;
 `
 
+// toChange
+
 const TwitterCard = () => {
   const TranslateString = useI18n()
 
@@ -35,7 +37,7 @@ const TwitterCard = () => {
         <Timeline
           dataSource={{
             sourceType: 'profile',
-            screenName: 'GooseFinance'
+            screenName: 'CharmanderFina1'
           }}
           options={{
             height: '300',

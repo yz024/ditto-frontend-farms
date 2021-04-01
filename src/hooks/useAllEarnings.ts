@@ -12,10 +12,11 @@ const useAllEarnings = () => {
   const { fastRefresh } = useRefresh()
 
   useEffect(() => {
+    // toChange
     const fetchAllBalances = async () => {
       const calls = farmsConfig.map((farm) => ({
         address: getMasterChefAddress(),
-        name: 'pendingEgg',
+        name: 'pendingChar',
         params: [farm.pid, account],
       }))
 

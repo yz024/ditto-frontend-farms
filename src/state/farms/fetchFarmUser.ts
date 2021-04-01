@@ -60,10 +60,12 @@ export const fetchFarmUserStakedBalances = async (account: string) => {
 export const fetchFarmUserEarnings = async (account: string) => {
   const masterChefAdress = getMasterChefAddress()
 
+  // toChange
+
   const calls = farmsConfig.map((farm) => {
     return {
       address: masterChefAdress,
-      name: 'pendingEgg',
+      name: 'pendingChar',
       params: [farm.pid, account],
     }
   })

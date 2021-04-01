@@ -17,7 +17,7 @@ import FarmCard, { FarmWithStakedValue } from './components/FarmCard/FarmCard'
 import FarmTabButtons from './components/FarmTabButtons'
 import Divider from './components/Divider'
 
-export interface FarmsProps{
+export interface FarmsProps {
   tokenMode?: boolean
 }
 
@@ -28,7 +28,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
   const cakePrice = usePriceCakeBusd()
   const bnbPrice = usePriceBnbBusd()
   const { account, ethereum }: { account: string; ethereum: provider } = useWallet()
-  const {tokenMode} = farmsProps;
+  const { tokenMode } = farmsProps;
 
   const dispatch = useDispatch()
   const { fastRefresh } = useRefresh()
@@ -57,7 +57,8 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
         // if (!farm.tokenAmount || !farm.lpTotalInQuoteToken || !farm.lpTotalInQuoteToken) {
         //   return farm
         // }
-        const cakeRewardPerBlock = new BigNumber(farm.eggPerBlock || 1).times(new BigNumber(farm.poolWeight)) .div(new BigNumber(10).pow(18))
+
+        const cakeRewardPerBlock = new BigNumber(farm.eggPerBlock || 1).times(new BigNumber(farm.poolWeight)).div(new BigNumber(10).pow(18))
         const cakeRewardPerYear = cakeRewardPerBlock.times(BLOCKS_PER_YEAR)
 
         let apy = cakePrice.times(cakeRewardPerYear);
@@ -68,7 +69,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
           totalValue = totalValue.times(bnbPrice);
         }
 
-        if(totalValue.comparedTo(0) > 0){
+        if (totalValue.comparedTo(0) > 0) {
           apy = apy.div(totalValue);
         }
 
@@ -92,17 +93,60 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
   return (
     <Page>
       <Heading as="h1" size="lg" color="primary" mb="50px" style={{ textAlign: 'center' }}>
+        Farms and Nests will be shown after the fair launch.
+      </Heading>
+      <Heading as="h1" size="lg" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
+        Rates that would be implemented are shown below
+      </Heading>
+      <div style={{ display: 'flex', width: '100%', justifyContent: 'space-around', }}>
+        <div>
+          <Heading as="h1" size="lg" color="primary" mb="20px" style={{ textAlign: 'center' }}>
+            Farms
+      </Heading>
+          <Heading as="h1" size="sm" mb="20px" style={{ textAlign: 'center' }}>
+            <div>CHAR-BUSD: 40x</div>
+            <div>CHAR-BNB: 24x</div>
+            <div>BNB-BUSD: 6x</div>
+            <div>USDT-BUSD: 6x</div>
+            <div>BTCB-BUSD: 6x</div>
+            <div>ETH-BUSD: 6x</div>
+            <div>DAI-BUSD: 6x</div>
+            <div>USDC-BUSD: 6x</div>
+            <div>DOT-BNB: 6x</div>
+            <div>DOT-BUSD: 6x</div>
+            <div>ADA-BNB: 4x</div>
+          </Heading>
+        </div>
+        <div>
+          <Heading as="h1" size="lg" color="secondary" mb="20px" style={{ textAlign: 'center' }}>
+            Nests
+      </Heading>
+          <Heading as="h1" size="sm" mb="20px" style={{ textAlign: 'center' }}>
+            <div>CHAR: 10x</div>
+            <div>BUSD: 2x</div>
+            <div>BNB: 2x</div>
+            <div>USDT: 1x</div>
+            <div>BTCB: 4x</div>
+            <div>ETH: 4x</div>
+            <div>DAI: 1x</div>
+            <div>USDC: 1x</div>
+            <div>DOT: 4x</div>
+            <div>ADA: 4x</div>
+          </Heading>
+        </div>
+      </div>
+      <Heading as="h1" size="lg" color="primary" mb="50px" style={{ textAlign: 'center' }}>
         {
           tokenMode ?
-            TranslateString(10002, 'Stake tokens to earn EGG')
+            TranslateString(10002, 'Stake tokens to earn CHAR')
             :
-          TranslateString(320, 'Stake LP tokens to earn EGG')
+            TranslateString(320, 'Stake LP tokens to earn CHAR')
         }
       </Heading>
       <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-        {TranslateString(10000, 'Deposit Fee will be used to buyback EGG')}
+        {TranslateString(10000, 'Deposit Fee will be used to buyback CHAR')}
       </Heading>
-      <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly}/>
+      <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly} />
       <div>
         <Divider />
         <FlexLayout>
@@ -114,9 +158,21 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
           </Route>
         </FlexLayout>
       </div>
-      <Image src="/images/egg/8.png" alt="illustration" width={1352} height={587} responsive />
-    </Page>
+      <Image src="/images/egg/8.png" alt="illustration" width={1538} height={1080} responsive />
+    </Page >
   )
 }
 
 export default Farms
+
+/*
+        <FlexLayout>
+          <Route exact path={`${path}`}>
+            {stakedOnly ? farmsList(stakedOnlyFarms, false) : farmsList(activeFarms, false)}
+          </Route>
+          <Route exact path={`${path}/history`}>
+            {farmsList(inactiveFarms, true)}
+          </Route>
+        </FlexLayout>
+
+*/

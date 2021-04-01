@@ -18,10 +18,11 @@ const useFarmsWithBalance = () => {
   const { fastRefresh } = useRefresh()
 
   useEffect(() => {
+    // toChange
     const fetchBalances = async () => {
       const calls = farmsConfig.map((farm) => ({
         address: getMasterChefAddress(),
-        name: 'pendingEgg',
+        name: 'pendingChar',
         params: [farm.pid, account],
       }))
 
