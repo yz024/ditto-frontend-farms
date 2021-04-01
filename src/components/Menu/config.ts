@@ -65,7 +65,7 @@ const config: MenuEntry[] = [
   },
   {
     label: 'Telegram',
-    icon: 'MoreIcon',
+    icon: 'TelegramIcon',
     items: [
       {
         label: 'Discussion',
@@ -79,7 +79,7 @@ const config: MenuEntry[] = [
   },
   {
     label: 'Twitter',
-    icon: 'MoreIcon',
+    icon: 'TwitterIcon',
     href: 'https://twitter.com/Charmander_Defi',
   },
 ]
