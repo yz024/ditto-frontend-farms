@@ -28,111 +28,91 @@ const GlobalStyle = createGlobalStyle`
     display: none;
   }
 
-  .fZXDjo {
+  .dxmefR {
     color: #1B4693;
   }
 
-  .jWkKBV {
+  .bbSIME {
     color: #1B4693;
   }
 
-  .bwaTUZ {
+  .imhYNd {
     color: #1B4693;
   }
 
-  .ghfaNa {
+  .kxDGqL {
     color: #1B4693;
   }
 
-  .hYCYbf {
+  .kxDFDt {
     color: #1B4693;
   }
 
-  .dJjSLh {
+  .diGZoE {
     color: #1B4693;
   }
 
-  .bFyyYW {
+  .eugENQ {
     color: #1B4693;
   }
 
-  .fxgYEI {
+  .eIORCb {
     color: #1B4693;
   }
 
-  .jUTRyE {
-    color: #1B4693;
-  }
-
-  .doXHqk {
-    color: #1B4693; 
-  }
-
-  .kYzRJA {
-    color: #1B4693; 
-  }
-
-  .jXTHQz {
-    color: #1B4693; 
-  }
-
-  .gyZqgP {
-    color: #1B4693; 
-  }
-
-  .hfQhwo {
-    color: #1B4693; 
-  }
-
-  .lcdoOV {
-    color: #1B4693; 
-  }
-
-  .cNpGDU {
-    color: #1B4693; 
-  }
-
-  .ldIlNr svg {
-    fill: #1B4693; 
-  }
-
-  .vzgrd svg {
-    fill: #1B4693; 
-  }
-
-  .eNOLL a {
-    color: #1B4693; 
-  }
-
-  .hwrYDt {
-    fill: #1B4693; 
-  }
-
-  .SfwyR {
-    fill: #1B4693; 
-  }
-
-  .fOxbkq {
+  .eNHRIG {
     fill: #1B4693;
   }
 
-  .cuuOmQ {
-    fill: #1B4693;
+  .ZkHOl {
+    color: #1B4693; 
   }
 
-  .gHbDCl {
-    color: #1B4693;
+  .ewCGLh {
+    fill: #1B4693; 
   }
 
-  .lgXcEr {
-    color: #1B4693;
+  .jvgOul {
+    color: #1B4693; 
   }
 
-  .lfZZXC {
+  .eoPRXO {
+    color: #1B4693; 
+  }
+
+  .ZaJOI  {
+    color: #1B4693; 
+  }
+
+  .gTRKTy {
+    color: #1B4693; 
+  }
+
+  .kjBbpq {
+    background-color: #1B4693; 
+  }
+
+  .cxRybB {
+    color: #1B4693; 
+  }
+
+  .kbxvML {
+    color: #1B4693; 
+  }
+
+  .iSwxPe {
+    fill: #1B4693; 
+  }
+
+  .lkvAzg {
+    fill: #1B4693; 
+  }
+
+  .kpGBdr {
     color: #2054B0;
   }
 
-  .bubKwl {
+  .bGXgog {
     color: #2054B0;
   }
 
