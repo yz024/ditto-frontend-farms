@@ -28,12 +28,32 @@ const GlobalStyle = createGlobalStyle`
     display: none;
   }
 
+  .jbBYkB:focus:not(:active) {
+    box-shadow: #1B4693 0px 0px 0px 2px;
+  }
+
+  .gSiATn:focus:not(:active) {
+    box-shadow: #1B4693 0px 0px 0px 2px;
+  }
+
   .ZzztE {
     background: rgba(27, 70, 147, 0.5);
   }
 
   .naYeO {
     background: rgba(27, 70, 147, 0.5);
+  }
+
+  .jHWgCt {
+    background-color: #1B4693;
+  }
+
+  .NdXyL {
+    color: #1B4693;
+  }
+
+  .gIlDLE {
+    color: rgba(27, 70, 147, 0.5);
   }
 
   .dxmefR {
