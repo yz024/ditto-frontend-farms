@@ -28,6 +28,14 @@ const GlobalStyle = createGlobalStyle`
     display: none;
   }
 
+  .ZzztE {
+    background: rgba(27, 70, 147, 0.5);
+  }
+
+  .naYeO {
+    background: rgba(27, 70, 147, 0.5);
+  }
+
   .dxmefR {
     color: #1B4693;
   }

@@ -95,12 +95,12 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
       <Heading as="h1" size="lg" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
         Farms and Nests will be shown after the fair launch.
       </Heading>
-      <Heading as="h1" size="lg" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-        Rates that would be implemented are shown below
+      <Heading as="h1" size="lg" mb="50px" style={{ textAlign: 'center' }}>
+        Rates that will be implemented are shown below
       </Heading>
       <div style={{ display: 'flex', width: '100%', justifyContent: 'space-around', }}>
         <div>
-          <Heading as="h1" size="lg" color="secondary" mb="20px" style={{ textAlign: 'center' }}>
+          <Heading as="h1" size="lg" mb="20px" style={{ textAlign: 'center' }}>
             Farms
       </Heading>
           <Heading as="h1" size="sm" mb="20px" style={{ textAlign: 'center' }}>
@@ -118,7 +118,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
           </Heading>
         </div>
         <div>
-          <Heading as="h1" size="lg" color="secondary" mb="20px" style={{ textAlign: 'center' }}>
+          <Heading as="h1" size="lg" mb="20px" style={{ textAlign: 'center' }}>
             Nests
       </Heading>
           <Heading as="h1" size="sm" mb="20px" style={{ textAlign: 'center' }}>
@@ -142,9 +142,6 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
             :
             TranslateString(320, 'Stake LP tokens to earn CHAR')
         }
-      </Heading>
-      <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-        {TranslateString(10000, 'Deposit Fee will be used to buyback CHAR')}
       </Heading>
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly} />
       <div>
