@@ -36,8 +36,12 @@ const GlobalStyle = createGlobalStyle`
     color: #1B4693;
   }
 
-  .imhYNd {
+  .UNrzd {
     color: #1B4693;
+  }
+
+  .imhYNd {
+    color: #1B4693 !important;
   }
 
   .kxDGqL {
@@ -61,7 +65,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   .eNHRIG {
-    fill: #1B4693;
+    fill: #1B4693 !important;
   }
 
   .ZkHOl {
@@ -85,6 +89,10 @@ const GlobalStyle = createGlobalStyle`
   }
 
   .gTRKTy {
+    color: #1B4693; 
+  }
+
+  .duufhV {
     color: #1B4693; 
   }
 
@@ -116,8 +124,12 @@ const GlobalStyle = createGlobalStyle`
     color: #2054B0;
   }
 
-  .WwULG {
-    color: #2054B0;
+  .kmOCfv {
+    color: #2054B0 !important;
+  }
+
+  .kqGDhd {
+    background-color: #2054B0;
   }
 
 
