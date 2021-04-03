@@ -104,17 +104,14 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
             Farms
       </Heading>
           <Heading as="h1" size="sm" mb="20px" style={{ textAlign: 'center' }}>
-            <div>CHAR-BUSD: 40x</div>
-            <div>CHAR-BNB: 24x</div>
-            <div>BNB-BUSD: 6x</div>
-            <div>USDT-BUSD: 6x</div>
-            <div>BTCB-BNB: 6x</div>
-            <div>ETH-BNB: 6x</div>
-            <div>DAI-BUSD: 6x</div>
-            <div>USDC-BUSD: 6x</div>
-            <div>DOT-BNB: 6x</div>
-            <div>DOT-BUSD: 6x</div>
-            <div>ADA-BNB: 4x</div>
+            <div>CHAR-BUSD: 50x</div>
+            <div>CHAR-BNB: 30x</div>
+            <div>BNB-BUSD: 5x</div>
+            <div>USDT-BUSD: 5x</div>
+            <div>ETH-BUSD: 5x</div>
+            <div>DAI-BUSD: 5x</div>
+            <div>USDC-BUSD: 5x</div>
+            <div>DOT-BUSD: 5x</div>
           </Heading>
         </div>
         <div>
@@ -122,16 +119,12 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
             Nests
       </Heading>
           <Heading as="h1" size="sm" mb="20px" style={{ textAlign: 'center' }}>
-            <div>CHAR: 10x</div>
+            <div>CHAR: 12x</div>
             <div>BUSD: 2x</div>
-            <div>BNB: 2x</div>
-            <div>USDT: 1x</div>
-            <div>BTCB: 2x</div>
+            <div>BNB: 4x</div>
+            <div>USDT: 2x</div>
             <div>ETH: 4x</div>
-            <div>DAI: 1x</div>
-            <div>USDC: 1x</div>
             <div>DOT: 4x</div>
-            <div>ADA: 4x</div>
           </Heading>
         </div>
       </div>
