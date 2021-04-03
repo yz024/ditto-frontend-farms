@@ -119,15 +119,3 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
 export default Farms
 
 
-
-/*
-        <FlexLayout>
-          <Route exact path={`${path}`}>
-            {stakedOnly ? farmsList(stakedOnlyFarms, false) : farmsList(activeFarms, false)}
-          </Route>
-          <Route exact path={`${path}/history`}>
-            {farmsList(inactiveFarms, true)}
-          </Route>
-        </FlexLayout>
-
-*/
