@@ -8,12 +8,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'CHAR-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x890BeD93dfC0a8ADC9069bACC5E2a41426482d99',
+      56: '0x819667951d7bb55e092c8f1556cf8b156fa7796a',
     },
     tokenSymbol: 'CHAR',
     tokenAddresses: {
       97: '',
-      56: '0x699b4D623b419B0024F4B61D7bE14Ae09B4d7B7F',
+      56: '0xdBe7d2A1b6C58550D5F7cA6bd704261de942cb7b',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -24,17 +24,23 @@ const farms: FarmConfig[] = [
     lpSymbol: 'CHAR-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0x3104B34072cf57618066b6d6E58592b2216F75B3',
+      56: '0x8c74bd10260488daf950d95dc16515de8f287ca7',
     },
     tokenSymbol: 'CHAR',
     tokenAddresses: {
       97: '',
-      56: '0x699b4D623b419B0024F4B61D7bE14Ae09B4d7B7F',
+      56: '0xdBe7d2A1b6C58550D5F7cA6bd704261de942cb7b',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
   },
-  {
+]
+
+export default farms
+
+/*
+
+{
     pid: 2,
     risk: 3,
     lpSymbol: 'BNB-BUSD LP',
@@ -50,13 +56,7 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
-]
-
-export default farms
-
-/*
-
- {
+  {
     pid: 3,
     risk: 1,
     lpSymbol: 'USDT-BUSD LP',
@@ -306,4 +306,4 @@ export default farms
     quoteTokenAdresses: contracts.busd,
   },
 
-*/
+  */

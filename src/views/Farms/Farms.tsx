@@ -93,42 +93,6 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
   return (
     <Page>
       <Heading as="h1" size="lg" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-        Farms and Nests will be shown after the fair launch.
-      </Heading>
-      <Heading as="h1" size="lg" mb="50px" style={{ textAlign: 'center' }}>
-        Rates that will be implemented are shown below
-      </Heading>
-      <div style={{ display: 'flex', width: '100%', justifyContent: 'space-around', }}>
-        <div>
-          <Heading as="h1" size="lg" mb="20px" style={{ textAlign: 'center' }}>
-            Farms
-      </Heading>
-          <Heading as="h1" size="sm" mb="20px" style={{ textAlign: 'center' }}>
-            <div>CHAR-BUSD: 50x</div>
-            <div>CHAR-BNB: 30x</div>
-            <div>BNB-BUSD: 5x</div>
-            <div>USDT-BUSD: 5x</div>
-            <div>ETH-BUSD: 5x</div>
-            <div>DAI-BUSD: 5x</div>
-            <div>USDC-BUSD: 5x</div>
-            <div>DOT-BUSD: 5x</div>
-          </Heading>
-        </div>
-        <div>
-          <Heading as="h1" size="lg" mb="20px" style={{ textAlign: 'center' }}>
-            Nests
-      </Heading>
-          <Heading as="h1" size="sm" mb="20px" style={{ textAlign: 'center' }}>
-            <div>CHAR: 12x</div>
-            <div>BUSD: 2x</div>
-            <div>BNB: 4x</div>
-            <div>USDT: 2x</div>
-            <div>ETH: 4x</div>
-            <div>DOT: 4x</div>
-          </Heading>
-        </div>
-      </div>
-      <Heading as="h1" size="lg" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
         {
           tokenMode ?
             TranslateString(10002, 'Stake tokens to earn CHAR')
@@ -139,6 +103,14 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly} />
       <div>
         <Divider />
+        <FlexLayout>
+          <Route exact path={`${path}`}>
+            {stakedOnly ? farmsList(stakedOnlyFarms, false) : farmsList(activeFarms, false)}
+          </Route>
+          <Route exact path={`${path}/history`}>
+            {farmsList(inactiveFarms, true)}
+          </Route>
+        </FlexLayout>
       </div>
     </Page >
   )
