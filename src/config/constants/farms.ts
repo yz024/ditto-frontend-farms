@@ -34,6 +34,22 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
   },
+  {
+    pid: 2,
+    risk: 3,
+    lpSymbol: 'BNB-BUSD LP',
+    lpAddresses: {
+      97: '',
+      56: '0x1b96b92314c44b159149f7e0303511fb2fc4774f',
+    },
+    tokenSymbol: 'BNB',
+    tokenAddresses: {
+      97: '',
+      56: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
 ]
 
 export default farms
@@ -75,26 +91,10 @@ export default farms
   {
     pid: 4,
     risk: 2,
-    lpSymbol: 'BTCB-BNB LP',
+    lpSymbol: 'ETH-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x7561eee90e24f3b348e1087a005f78b4c8453524',
-    },
-    tokenSymbol: 'BTCB',
-    tokenAddresses: {
-      97: '',
-      56: '0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c',
-    },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
-  },
-  {
-    pid: 5,
-    risk: 2,
-    lpSymbol: 'ETH-BNB LP',
-    lpAddresses: {
-      97: '',
-      56: '0x70d8929d04b60af4fb9b58713ebcf18765ade422',
+      56: '0xd9a0d1f5e02de2403f68bb71a15f8847a854b494',
     },
     tokenSymbol: 'ETH',
     tokenAddresses: {
@@ -105,7 +105,7 @@ export default farms
     quoteTokenAdresses: contracts.wbnb,
   },
   {
-    pid: 6,
+    pid: 5,
     risk: 1,
     lpSymbol: 'DAI-BUSD LP',
     lpAddresses: {
@@ -121,7 +121,7 @@ export default farms
     quoteTokenAdresses: contracts.busd,
   },
   {
-    pid: 7,
+    pid: 6,
     risk: 1,
     lpSymbol: 'USDC-BUSD LP',
     lpAddresses: {
@@ -137,12 +137,12 @@ export default farms
     quoteTokenAdresses: contracts.busd,
   },
   {
-    pid: 9,
+    pid: 7,
     risk: 3,
-    lpSymbol: 'DOT-BNB LP',
+    lpSymbol: 'DOT-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0xbcd62661a6b1ded703585d3af7d7649ef4dcdb5c',
+      56: '0x54c1ec2f543966953f2f7564692606ea7d5a184e',
     },
     tokenSymbol: 'DOT',
     tokenAddresses: {
@@ -153,7 +153,7 @@ export default farms
     quoteTokenAdresses: contracts.wbnb,
   },
   {
-    pid: 12,
+    pid: 8,
     risk: 5,
     isTokenOnly: true,
     lpSymbol: 'EGG',
@@ -170,7 +170,7 @@ export default farms
     quoteTokenAdresses: contracts.busd,
   },
   {
-    pid: 13,
+    pid: 9,
     risk: 1,
     isTokenOnly: true,
     lpSymbol: 'BUSD',
