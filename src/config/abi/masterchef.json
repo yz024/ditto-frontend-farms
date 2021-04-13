@@ -2,8 +2,8 @@
   {
     "inputs": [
       {
-        "internalType": "contract CharmanderToken",
-        "name": "_charmander",
+        "internalType": "contract GengarToken",
+        "name": "_gen",
         "type": "address"
       },
       {
@@ -18,7 +18,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "_charPerBlock",
+        "name": "_genPerBlock",
         "type": "uint256"
       },
       {
@@ -166,32 +166,6 @@
     "type": "function"
   },
   {
-    "inputs": [],
-    "name": "charPerBlock",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function"
-  },
-  {
-    "inputs": [],
-    "name": "charmander",
-    "outputs": [
-      {
-        "internalType": "contract CharmanderToken",
-        "name": "",
-        "type": "address"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function"
-  },
-  {
     "inputs": [
       {
         "internalType": "uint256",
@@ -262,6 +236,32 @@
     "type": "function"
   },
   {
+    "inputs": [],
+    "name": "gengar",
+    "outputs": [
+      {
+        "internalType": "contract GengarToken",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "gengarPerBlock",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
     "inputs": [
       {
         "internalType": "uint256",
@@ -318,7 +318,7 @@
         "type": "address"
       }
     ],
-    "name": "pendingChar",
+    "name": "pendingGengar",
     "outputs": [
       {
         "internalType": "uint256",
@@ -356,7 +356,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "accCharPerShare",
+        "name": "accGengarPerShare",
         "type": "uint256"
       },
       {
@@ -472,7 +472,7 @@
     "inputs": [
       {
         "internalType": "uint256",
-        "name": "_charPerBlock",
+        "name": "_gengarPerBlock",
         "type": "uint256"
       }
     ],
