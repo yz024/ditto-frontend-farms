@@ -139,7 +139,7 @@ const farms: FarmConfig[] = [
       97: '',
       56: '0x819667951d7bb55e092c8f1556cf8b156fa7796a', // EGG-BUSD LP
     },
-    tokenSymbol: 'CHAR',
+    tokenSymbol: 'GEN',
     tokenAddresses: {
       97: '',
       56: '0xbc7295bBdB0B9E28B53CC0aFfF303Ae9AB84312F',
