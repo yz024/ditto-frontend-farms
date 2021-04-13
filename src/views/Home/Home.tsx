@@ -59,13 +59,14 @@ const Home: React.FC = () => {
 
   return (
     <Page>
-      <Text>
+      <Heading as="h3" size="sm" mb="24px" color="primary">
         Gengar will be looking out for block <a href="https://bscscan.com/block/countdown/6677000" style={{ textDecoration: 'underline' }}>6677000</a> as farming starts then. What about you?
-      </Text>
+      </Heading>
       <Hero>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
           {TranslateString(576, 'Gengar Finance')}
         </Heading>
+        <Text>{TranslateString(578, 'Top 3 best DEFI app on Binance Smart Chain.')}</Text>
       </Hero>
       <div>
         <Cards>
@@ -80,9 +81,3 @@ const Home: React.FC = () => {
 }
 
 export default Home
-
-/*
-
-        <Text>{TranslateString(578, 'Top 3 best DEFI app on Binance Smart Chain.')}</Text>
-
-        */
