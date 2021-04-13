@@ -20,6 +20,12 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
+`
+
+export default GlobalStyle
+
+/*
+
   a[href="https://twitter.com/FinanceGoose"] {
     display: none;
   }
@@ -28,7 +34,7 @@ const GlobalStyle = createGlobalStyle`
     display: none;
   }
 
-  .jbBYkB:focus:not(:active) {
+ .jbBYkB:focus:not(:active) {
     box-shadow: #1B4693 0px 0px 0px 2px;
   }
 
@@ -97,51 +103,51 @@ const GlobalStyle = createGlobalStyle`
   }
 
   .ZkHOl {
-    color: #1B4693; 
+    color: #1B4693;
   }
 
   .ewCGLh {
-    fill: #1B4693; 
+    fill: #1B4693;
   }
 
   .jvgOul {
-    color: #1B4693; 
+    color: #1B4693;
   }
 
   .eoPRXO {
-    color: #1B4693; 
+    color: #1B4693;
   }
 
   .ZaJOI  {
-    color: #1B4693; 
+    color: #1B4693;
   }
 
   .gTRKTy {
-    color: #1B4693; 
+    color: #1B4693;
   }
 
   .duufhV {
-    color: #1B4693; 
+    color: #1B4693;
   }
 
   .kjBbpq {
-    background-color: #1B4693; 
+    background-color: #1B4693;
   }
 
   .cxRybB {
-    color: #1B4693; 
+    color: #1B4693;
   }
 
   .kbxvML {
-    color: #1B4693; 
+    color: #1B4693;
   }
 
   .iSwxPe {
-    fill: #1B4693; 
+    fill: #1B4693;
   }
 
   .lkvAzg {
-    fill: #1B4693; 
+    fill: #1B4693;
   }
 
   .kpGBdr {
@@ -160,7 +166,4 @@ const GlobalStyle = createGlobalStyle`
     background-color: #2054B0;
   }
 
-
-`
-
-export default GlobalStyle
+  */
