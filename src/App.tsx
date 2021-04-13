@@ -46,10 +46,10 @@ const App: React.FC = () => {
             <Route path="/" exact>
               <Home />
             </Route>
-            <Route path="/farms">
+            <Route path="/forest">
               <Farms />
             </Route>
-            <Route path="/nests">
+            <Route path="/safari">
               <Farms tokenMode />
             </Route>
             <Route path="/soon">
