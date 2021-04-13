@@ -1837,7 +1837,7 @@
 
 "@pancakeswap-libs/uikit@jasonnn0210/goose-uikit":
   version "0.10.2"
-  resolved "https://codeload.github.com/jasonnn0210/goose-uikit/tar.gz/293e8a3a853d26f578dbe0f319fffbf7e43fa734"
+  resolved "https://codeload.github.com/jasonnn0210/goose-uikit/tar.gz/bbd2a781dd0ca92efaeaee74eec395df077cdaf3"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"

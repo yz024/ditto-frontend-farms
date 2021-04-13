@@ -1,7 +1,8 @@
 import React, { useEffect, Suspense, lazy } from 'react'
 import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
-import { ResetCSS } from '@pancakeswap-libs/uikit'
+import { ResetCSS, Image, Heading } from '@pancakeswap-libs/uikit'
+import Page from 'components/layout/Page'
 import BigNumber from 'bignumber.js'
 import { useFetchPublicData } from 'state/hooks'
 import GlobalStyle from './style/Global'
@@ -50,6 +51,13 @@ const App: React.FC = () => {
             </Route>
             <Route path="/nests">
               <Farms tokenMode />
+            </Route>
+            <Route path="/soon">
+              <Page>
+                <Heading as="h1" size="lg" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
+                  Coming soon, we are currently working on it!
+                </Heading>
+              </Page>
             </Route>
             {/* <Route path="/pools"> */}
             {/*  <Pools /> */}

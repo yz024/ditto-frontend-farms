@@ -173,6 +173,14 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
       </Flex>
       <CardActionsContainer farm={farm} ethereum={ethereum} account={account} />
       <Divider />
+    </FCard>
+  )
+}
+
+export default FarmCard
+
+/*
+
       <ExpandableSectionButton
         onClick={() => setShowExpandableSection(!showExpandableSection)}
         expanded={showExpandableSection}
@@ -194,8 +202,5 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
           tokenAddresses={tokenAddresses}
         />
       </ExpandingWrapper>
-    </FCard>
-  )
-}
 
-export default FarmCard
+*/

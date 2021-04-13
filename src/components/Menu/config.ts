@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.charmanderdefi.com/#/swap',
+        href: 'https://exchange.gengarfinance.com/#/swap',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.charmanderdefi.com/#/pool',
+        href: 'https://exchange.gengarfinance.com/#/pool',
       },
     ],
   },
@@ -51,36 +51,17 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/charmanderdefi',
+        href: '/soon',
       },
       {
         label: 'Docs',
-        href: 'https://charmanderdefi.gitbook.io/charmander-finance-1/',
+        href: '/soon',
       },
       {
         label: 'Blog',
-        href: 'https://medium.com/@charmanderdefi/charmander-defi-fiery-yield-farming-255deab5f9ad'
+        href: '/soon'
       },
     ],
-  },
-  {
-    label: 'Telegram',
-    icon: 'TelegramIcon',
-    items: [
-      {
-        label: 'Discussion',
-        href: 'http://t.me/charmanderdefidiscussion',
-      },
-      {
-        label: 'Announcement',
-        href: 'http://t.me/charmanderdefiannouncements',
-      },
-    ],
-  },
-  {
-    label: 'Twitter',
-    icon: 'TwitterIcon',
-    href: 'https://twitter.com/Charmander_Defi',
   },
 ]
 
