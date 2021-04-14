@@ -51,15 +51,15 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: '/soon',
+        href: 'https://github.com/gengarfinance',
       },
       {
         label: 'Docs',
-        href: '/soon',
+        href: 'https://gengarfinance.gitbook.io/gengar-finance/',
       },
       {
         label: 'Blog',
-        href: '/soon'
+        href: 'https://gengarfinance.medium.com/pre-evolution-the-beginning-of-gengar-finance-4d5b946bdfd3'
       },
     ],
   },
