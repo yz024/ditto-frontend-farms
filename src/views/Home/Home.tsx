@@ -60,6 +60,9 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Heading as="h3" size="sm" mb="24px" color="primary" style={{ textAlign: 'center' }}>
+        Gengar is going to enter the fair launch to get some GEN tokens to power up, will you join him?
+      </Heading>
+      <Heading as="h3" size="sm" mb="24px" color="primary" style={{ textAlign: 'center' }}>
         Gengar will be looking out for block <a href="https://bscscan.com/block/countdown/6677000" style={{ textDecoration: 'underline' }}>6677000</a> as farming starts then. What about you?
       </Heading>
       <Hero>
