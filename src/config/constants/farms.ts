@@ -8,7 +8,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'GEN-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x19e7cbECDD23A16DfA5573dF54d98F7CaAE03019',
+      56: '0x683d378d3454c504b178d27a0bd1444943a03bc1',
     },
     tokenSymbol: 'GEN',
     tokenAddresses: {
@@ -24,7 +24,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'GEN-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0xd1B59D11316E87C3a0A069E80F590BA35cD8D8D3',
+      56: '0xdf2709fa10905da4e41a37147ea31aee6852e278',
     },
     tokenSymbol: 'GEN',
     tokenAddresses: {
@@ -136,7 +136,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'DOT-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0x54c1ec2f543966953f2f7564692606ea7d5a184e',
+      56: '0xbCD62661A6b1DEd703585d3aF7d7649Ef4dcDB5c',
     },
     tokenSymbol: 'DOT',
     tokenAddresses: {
