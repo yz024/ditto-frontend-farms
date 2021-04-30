@@ -171,6 +171,8 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
         <Text style={{ fontSize: '24px' }}>{TranslateString(10001, 'Deposit Fee')}:</Text>
         <Text bold style={{ fontSize: '24px' }}>{(farm.depositFeeBP / 100)}%</Text>
       </Flex>
+      <CardActionsContainer farm={farm} ethereum={ethereum} account={account} />
+      <Divider />
     </FCard>
   )
 }
@@ -178,9 +180,6 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
 export default FarmCard
 
 /*
-
-      <CardActionsContainer farm={farm} ethereum={ethereum} account={account} />
-      <Divider />
       <ExpandableSectionButton
         onClick={() => setShowExpandableSection(!showExpandableSection)}
         expanded={showExpandableSection}
