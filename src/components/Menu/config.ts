@@ -12,23 +12,23 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.gengarfinance.com/#/swap',
+        href: '/',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.gengarfinance.com/#/pool',
+        href: '/',
       },
     ],
   },
   {
-    label: 'Forest',
+    label: 'Farms',
     icon: 'FarmIcon',
-    href: '/forest',
+    href: '/farms',
   },
   {
-    label: 'Safari',
+    label: 'Nests',
     icon: 'PoolIcon',
-    href: '/safari',
+    href: '/nests',
   },
   // {
   //   label: 'Pools',
@@ -51,15 +51,15 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/gengarfinance',
+        href: '/',
       },
       {
         label: 'Docs',
-        href: 'https://gengarfinance.gitbook.io/gengar-finance/',
+        href: '/',
       },
       {
         label: 'Blog',
-        href: 'https://gengarfinance.medium.com/pre-evolution-the-beginning-of-gengar-finance-4d5b946bdfd3'
+        href: '/'
       },
     ],
   },

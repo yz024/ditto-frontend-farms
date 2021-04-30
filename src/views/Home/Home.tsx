@@ -59,12 +59,9 @@ const Home: React.FC = () => {
 
   return (
     <Page>
-      <Heading as="h3" size="sm" mb="24px" color="primary" style={{ textAlign: 'center' }}>
-        Gengar will be looking out for block <a href="https://bscscan.com/block/countdown/6677000" style={{ textDecoration: 'underline' }}>6677000</a> as farming starts then. What about you?
-      </Heading>
       <Hero>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
-          {TranslateString(576, 'Gengar Finance')}
+          {TranslateString(576, 'Titan Finance')}
         </Heading>
         <Text>{TranslateString(578, 'Yield farm on Binance Smart Chain.')}</Text>
       </Hero>

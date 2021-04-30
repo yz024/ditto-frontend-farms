@@ -2,8 +2,8 @@
   {
     "inputs": [
       {
-        "internalType": "contract GengarToken",
-        "name": "_gen",
+        "internalType": "contract TitanToken",
+        "name": "_titan",
         "type": "address"
       },
       {
@@ -18,7 +18,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "_genPerBlock",
+        "name": "_titanPerBlock",
         "type": "uint256"
       },
       {
@@ -236,32 +236,6 @@
     "type": "function"
   },
   {
-    "inputs": [],
-    "name": "gengar",
-    "outputs": [
-      {
-        "internalType": "contract GengarToken",
-        "name": "",
-        "type": "address"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function"
-  },
-  {
-    "inputs": [],
-    "name": "gengarPerBlock",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function"
-  },
-  {
     "inputs": [
       {
         "internalType": "uint256",
@@ -318,7 +292,7 @@
         "type": "address"
       }
     ],
-    "name": "pendingGengar",
+    "name": "pendingTitan",
     "outputs": [
       {
         "internalType": "uint256",
@@ -356,7 +330,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "accGengarPerShare",
+        "name": "accTitanPerShare",
         "type": "uint256"
       },
       {
@@ -444,6 +418,32 @@
   },
   {
     "inputs": [],
+    "name": "titan",
+    "outputs": [
+      {
+        "internalType": "contract TitanToken",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "titanPerBlock",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
     "name": "totalAllocPoint",
     "outputs": [
       {
@@ -472,7 +472,7 @@
     "inputs": [
       {
         "internalType": "uint256",
-        "name": "_gengarPerBlock",
+        "name": "_titanPerBlock",
         "type": "uint256"
       }
     ],
