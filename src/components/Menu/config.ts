@@ -51,15 +51,15 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: '/',
+        href: '/soon',
       },
       {
         label: 'Docs',
-        href: '/',
+        href: '/soon',
       },
       {
         label: 'Blog',
-        href: '/'
+        href: '/soon'
       },
     ],
   },
