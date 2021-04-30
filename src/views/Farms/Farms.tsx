@@ -95,9 +95,9 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
       <Heading as="h1" size="lg" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
         {
           tokenMode ?
-            TranslateString(10002, 'Stake tokens to earn GEN')
+            TranslateString(10002, 'Stake tokens to earn AOT')
             :
-            TranslateString(320, 'Stake LP tokens to earn GEN')
+            TranslateString(320, 'Stake LP tokens to earn AOT')
         }
       </Heading>
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly} />
