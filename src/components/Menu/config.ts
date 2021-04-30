@@ -12,23 +12,23 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: '/',
+        href: 'https://exchange.aotfinance.com/#/swap',
       },
       {
         label: 'Liquidity',
-        href: '/',
+        href: 'https://exchange.aotfinance.com/#/pool',
       },
     ],
   },
   {
-    label: 'Farms',
+    label: 'Wall Rose',
     icon: 'FarmIcon',
-    href: '/farms',
+    href: '/rose',
   },
   {
-    label: 'Nests',
+    label: 'Wall Maria',
     icon: 'PoolIcon',
-    href: '/nests',
+    href: '/maria',
   },
   // {
   //   label: 'Pools',
