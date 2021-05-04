@@ -12,23 +12,23 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.aotfinance.com/#/swap',
+        href: 'https://exchange.pancakeswap.finance/#/swap',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.aotfinance.com/#/pool',
+        href: 'https://exchange.pancakeswap.finance/#/swap',
       },
     ],
   },
   {
-    label: 'Wall Rose',
+    label: 'Farms',
     icon: 'FarmIcon',
-    href: '/rose',
+    href: '/farms',
   },
   {
-    label: 'Wall Maria',
+    label: 'Nests',
     icon: 'PoolIcon',
-    href: '/maria',
+    href: '/nests',
   },
   // {
   //   label: 'Pools',
@@ -51,7 +51,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: '/',
+        href: '/soon',
       },
       {
         label: 'Docs',

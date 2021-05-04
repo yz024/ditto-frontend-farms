@@ -75,7 +75,7 @@
     {
       "data": {
         "stringId": 304,
-        "text": "Total AOT burned since launch"
+        "text": "Total SQR burned since launch"
       }
     },
     {
@@ -123,13 +123,13 @@
     {
       "data": {
         "stringId": 320,
-        "text": "Stake LP tokens to earn AOT"
+        "text": "Stake LP tokens to earn SQR"
       }
     },
     {
       "data": {
         "stringId": 322,
-        "text": "Stake AOT"
+        "text": "Stake SQR"
       }
     },
     {
@@ -153,7 +153,7 @@
     {
       "data": {
         "stringId": 334,
-        "text": "Every time you stake and unstake AOT tokens, the contract will automatically harvest AOT rewards for you!"
+        "text": "Every time you stake and unstake SQR tokens, the contract will automatically harvest SQR rewards for you!"
       }
     },
     {
@@ -219,7 +219,7 @@
     {
       "data": {
         "stringId": 358,
-        "text": "Titan price"
+        "text": "Squirtle price"
       }
     },
     {
@@ -243,7 +243,7 @@
     {
       "data": {
         "stringId": 380,
-        "text": "1 AOT = 1 SYRUP"
+        "text": "1 SQR = 1 SYRUP"
       }
     },
     {
@@ -291,7 +291,7 @@
     {
       "data": {
         "stringId": 400,
-        "text": "SYRUP holders proportionally split 25% of AOT block emissions each day (10 AOT per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 25% of SQR block emissions each day (10 SQR per block), Rewards are distributed each block."
       }
     },
     {
@@ -351,13 +351,13 @@
     {
       "data": {
         "stringId": 424,
-        "text": "%num% AOT"
+        "text": "%num% SQR"
       }
     },
     {
       "data": {
         "stringId": 426,
-        "text": "Spend AOT to buy tickets, contributing to the lottery pot. Ticket purchases end approx. 30 minutes before lottery. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their positions! Good luck!"
+        "text": "Spend SQR to buy tickets, contributing to the lottery pot. Ticket purchases end approx. 30 minutes before lottery. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their positions! Good luck!"
       }
     },
     {
@@ -435,19 +435,19 @@
     {
       "data": {
         "stringId": 454,
-        "text": "%num% AOT Available"
+        "text": "%num% SQR Available"
       }
     },
     {
       "data": {
         "stringId": 456,
-        "text": "Your amount must be a multiple of 10 AOT"
+        "text": "Your amount must be a multiple of 10 SQR"
       }
     },
     {
       "data": {
         "stringId": 458,
-        "text": "1 Ticket = 10 AOT"
+        "text": "1 Ticket = 10 SQR"
       }
     },
     {
@@ -495,7 +495,7 @@
     {
       "data": {
         "stringId": 478,
-        "text": "Ticket purchases are final. Your AOT cannot be returned to you after buying tickets."
+        "text": "Ticket purchases are final. Your SQR cannot be returned to you after buying tickets."
       }
     },
     {
@@ -507,7 +507,7 @@
     {
       "data": {
         "stringId": 482,
-        "text": "AOT prizes to be claimed"
+        "text": "SQR prizes to be claimed"
       }
     },
     {
@@ -543,13 +543,13 @@
     {
       "data": {
         "stringId": 494,
-        "text": "Approve AOT"
+        "text": "Approve SQR"
       }
     },
     {
       "data": {
         "stringId": 496,
-        "text": "SYRUP holders proportionally split 40% of AOT block emissions each day (10 AOT per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 40% of SQR block emissions each day (10 SQR per block), Rewards are distributed each block."
       }
     },
     {
@@ -567,19 +567,19 @@
     {
       "data": {
         "stringId": 504,
-        "text": "You\u2019ll pay for the new tokens using AOT-BNB LP tokens, which means you need to stake equal amounts of AOT and BNB in a liquidity pool to take part."
+        "text": "You\u2019ll pay for the new tokens using SQR-BNB LP tokens, which means you need to stake equal amounts of SQR and BNB in a liquidity pool to take part."
       }
     },
     {
       "data": {
         "stringId": 506,
-        "text": "Get AOT-BNB LP >"
+        "text": "Get SQR-BNB LP >"
       }
     },
     {
       "data": {
         "stringId": 508,
-        "text": "The project gets the BNB, Titan Finance burns the AOT."
+        "text": "The project gets the BNB, Squirtle Finance burns the SQR."
       }
     },
     {
@@ -597,7 +597,7 @@
     {
       "data": {
         "stringId": 514,
-        "text": "Launch your project with Titan Finance, Binance Smart Chain\u2019s most-used AMM project and liquidity provider, to bring your token directly to the most active and rapidly growing community on BSC."
+        "text": "Launch your project with Squirtle Finance, Binance Smart Chain\u2019s most-used AMM project and liquidity provider, to bring your token directly to the most active and rapidly growing community on BSC."
       }
     },
     {
@@ -645,7 +645,7 @@
     {
       "data": {
         "stringId": 534,
-        "text": "Titan Stats"
+        "text": "Squirtle Stats"
       }
     },
     {
@@ -663,7 +663,7 @@
     {
       "data": {
         "stringId": 540,
-        "text": "New AOT\/block"
+        "text": "New SQR\/block"
       }
     },
     {
@@ -675,19 +675,19 @@
     {
       "data": {
         "stringId": 544,
-        "text": "AOT to Harvest"
+        "text": "SQR to Harvest"
       }
     },
     {
       "data": {
         "stringId": 546,
-        "text": "AOT in Wallet"
+        "text": "SQR in Wallet"
       }
     },
     {
       "data": {
         "stringId": 548,
-        "text": "Collecting AOT"
+        "text": "Collecting SQR"
       }
     },
     {
@@ -699,7 +699,7 @@
     {
       "data": {
         "stringId": 552,
-        "text": "AOT to Collect"
+        "text": "SQR to Collect"
       }
     },
     {
@@ -753,7 +753,7 @@
     {
       "data": {
         "stringId": 576,
-        "text": "Titan Finance"
+        "text": "Squirtle Finance"
       }
     },
     {
@@ -765,7 +765,7 @@
     {
       "data": {
         "stringId": 580,
-        "text": "Stake AOT to earn new tokens."
+        "text": "Stake SQR to earn new tokens."
       }
     },
     {
@@ -783,7 +783,7 @@
     {
       "data": {
         "stringId": 586,
-        "text": "AOT to burn (USD)"
+        "text": "SQR to burn (USD)"
       }
     },
     {
@@ -795,7 +795,7 @@
     {
       "data": {
         "stringId": 590,
-        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest AOT rewards for you!"
+        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest SQR rewards for you!"
       }
     },
     {
@@ -813,13 +813,13 @@
     {
       "data": {
         "stringId": 596,
-        "text": "Buy AOT and BNB tokens"
+        "text": "Buy SQR and BNB tokens"
       }
     },
     {
       "data": {
         "stringId": 598,
-        "text": "Get AOT-BNB LP tokens by adding AOT and BNB liquidity"
+        "text": "Get SQR-BNB LP tokens by adding SQR and BNB liquidity"
       }
     },
     {
@@ -831,7 +831,7 @@
     {
       "data": {
         "stringId": 602,
-        "text": "While the sale is live, commit your AOT-LP tokens to buy the IFO tokens"
+        "text": "While the sale is live, commit your SQR-LP tokens to buy the IFO tokens"
       }
     },
     {
@@ -867,7 +867,7 @@
     {
       "data": {
         "stringId": 614,
-        "text": "Trade in for AOT, or keep for your collection!"
+        "text": "Trade in for SQR, or keep for your collection!"
       }
     },
     {
@@ -909,7 +909,7 @@
     {
       "data": {
         "stringId": 628,
-        "text": "When you trade in this NFT to receive AOT, you will lose access to it forever!"
+        "text": "When you trade in this NFT to receive SQR, you will lose access to it forever!"
       }
     },
     {
@@ -939,7 +939,7 @@
     {
       "data": {
         "stringId": 638,
-        "text": "Winners can trade in their NFTs for a AOT value until the expiry date written below. If you don't trade in your NFT by then, don\u2019t worry: you\u2019ll still keep it in your wallet!"
+        "text": "Winners can trade in their NFTs for a SQR value until the expiry date written below. If you don't trade in your NFT by then, don\u2019t worry: you\u2019ll still keep it in your wallet!"
       }
     },
     {
@@ -981,7 +981,7 @@
     {
       "data": {
         "stringId": 654,
-        "text": "Trade in for AOT"
+        "text": "Trade in for SQR"
       }
     },
     {
@@ -1107,7 +1107,7 @@
     {
       "data": {
         "stringId": 696,
-        "text": "Stake LP tokens to earn AOT"
+        "text": "Stake LP tokens to earn SQR"
       }
     },
     {
@@ -1149,13 +1149,13 @@
     {
       "data": {
         "stringId": 708,
-        "text": "The AOT Lottery"
+        "text": "The SQR Lottery"
       }
     },
     {
       "data": {
         "stringId": 710,
-        "text": "Buy tickets with AOT"
+        "text": "Buy tickets with SQR"
       }
     },
     {
@@ -1209,7 +1209,7 @@
     {
       "data": {
         "stringId": 10000,
-        "text": "Deposit Fee will be used to buyback AOT"
+        "text": "Deposit Fee will be used to buyback SQR"
       }
     },
     {
@@ -1221,7 +1221,7 @@
     {
       "data": {
         "stringId": 10002,
-        "text": "Stake tokens to earn AOT"
+        "text": "Stake tokens to earn SQR"
       }
     },
     {
