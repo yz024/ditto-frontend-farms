@@ -51,7 +51,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: '/soon',
+        href: 'https://github.com/squirtlefinance',
       },
       {
         label: 'Docs',
