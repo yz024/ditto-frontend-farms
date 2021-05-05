@@ -1,3 +1,4 @@
+jason, [5 May 2021 at 10:17:30 AM]:
 import contracts from './contracts'
 import { FarmConfig, QuoteToken } from './types'
 
@@ -8,12 +9,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'SQR-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x19e7cbECDD23A16DfA5573dF54d98F7CaAE03019',
+      56: '0x2628f71dd1928a4b39bd5fd4aea37905891229fc',
     },
     tokenSymbol: 'SQR',
     tokenAddresses: {
       97: '',
-      56: '0xE7E55bC735260FcFb6f86877ee111e0880220510',
+      56: '0xEa5a3BFe81eEAf53ee202D222F3bcd8812eb86f5',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -24,7 +25,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'SQR-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0xd1B59D11316E87C3a0A069E80F590BA35cD8D8D3',
+      56: '0x55fd2d62430186c7b9022843b58e197a4999b11e',
     },
     tokenSymbol: 'SQR',
     tokenAddresses: {
@@ -40,7 +41,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BNB-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x1b96b92314c44b159149f7e0303511fb2fc4774f',
+      56: '0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16',
     },
     tokenSymbol: 'BNB',
     tokenAddresses: {
@@ -52,27 +53,11 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 3,
-    risk: 1,
-    lpSymbol: 'USDT-BUSD LP',
-    lpAddresses: {
-      97: '',
-      56: '0xc15fa3e22c912a276550f3e5fe3b0deb87b55acd',
-    },
-    tokenSymbol: 'USDT',
-    tokenAddresses: {
-      97: '',
-      56: '0x55d398326f99059ff775485246999027b3197955',
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
-  },
-  {
-    pid: 4,
     risk: 2,
     lpSymbol: 'BTCB-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0x7561eee90e24f3b348e1087a005f78b4c8453524', // BTCB-BNB LP
+      56: '0x61EB789d75A95CAa3fF50ed7E47b96c132fEc082', // BTCB-BNB LP
     },
     tokenSymbol: 'BTCB',
     tokenAddresses: {
@@ -83,12 +68,12 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
   },
   {
-    pid: 5,
+    pid: 4,
     risk: 2,
     lpSymbol: 'ETH-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0x70d8929d04b60af4fb9b58713ebcf18765ade422',
+      56: '0x74E4716E431f45807DCF19f284c7aA99F18a4fbc',
     },
     tokenSymbol: 'ETH',
     tokenAddresses: {
@@ -99,44 +84,12 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
   },
   {
-    pid: 6,
-    risk: 1,
-    lpSymbol: 'DAI-BUSD LP',
-    lpAddresses: {
-      97: '',
-      56: '0x3ab77e40340ab084c3e23be8e5a6f7afed9d41dc',
-    },
-    tokenSymbol: 'DAI',
-    tokenAddresses: {
-      97: '',
-      56: '0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3',
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
-  },
-  {
-    pid: 7,
-    risk: 1,
-    lpSymbol: 'USDC-BUSD LP',
-    lpAddresses: {
-      97: '',
-      56: '0x680dd100e4b394bda26a59dd5c119a391e747d18',
-    },
-    tokenSymbol: 'USDC',
-    tokenAddresses: {
-      97: '',
-      56: '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d',
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
-  },
-  {
-    pid: 8,
+    pid: 5,
     risk: 3,
     lpSymbol: 'DOT-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0xbCD62661A6b1DEd703585d3aF7d7649Ef4dcDB5c',
+      56: '0xDd5bAd8f8b360d76d12FdA230F8BAF42fe0022CF',
     },
     tokenSymbol: 'DOT',
     tokenAddresses: {
@@ -147,13 +100,61 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
   },
   {
+    pid: 6,
+    risk: 1,
+    lpSymbol: 'USDT-BUSD LP',
+    lpAddresses: {
+      97: '',
+      56: '0x7EFaEf62fDdCCa950418312c6C91Aef321375A00',
+    },
+    tokenSymbol: 'USDT',
+    tokenAddresses: {
+      97: '',
+      56: '0x55d398326f99059ff775485246999027b3197955',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  {
+    pid: 7,
+    risk: 1,
+    lpSymbol: 'DAI-BUSD LP',
+    lpAddresses: {
+      97: '',
+      56: '0x66FDB2eCCfB58cF098eaa419e5EfDe841368e489',
+    },
+    tokenSymbol: 'DAI',
+    tokenAddresses: {
+      97: '',
+      56: '0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  {
+    pid: 8,
+    risk: 1,
+    lpSymbol: 'USDC-BUSD LP',
+    lpAddresses: {
+      97: '',
+      56: '0x2354ef4DF11afacb85a5C7f98B624072ECcddbB1',
+    },
+    tokenSymbol: 'USDC',
+    tokenAddresses: {
+      97: '',
+      56: '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  {
     pid: 9,
     risk: 5,
     isTokenOnly: true,
     lpSymbol: 'SQR',
     lpAddresses: {
       97: '',
-      56: '0x19e7cbECDD23A16DfA5573dF54d98F7CaAE03019', // SQR-BUSD LP
+      56: '0x2628f71dd1928a4b39bd5fd4aea37905891229fc', // EGG-BUSD LP
     },
     tokenSymbol: 'SQR',
     tokenAddresses: {
@@ -170,13 +171,14 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BUSD',
     lpAddresses: {
       97: '',
-      56: '0x683d378d3454c504b178d27a0bd1444943a03bc1', // SQR-BUSD LP (BUSD-BUSD will ignore)
+      56: '0x2628f71dd1928a4b39bd5fd4aea37905891229fc', // EGG-BUSD LP (BUSD-BUSD will ignore)
     },
     tokenSymbol: 'BUSD',
     tokenAddresses: {
       97: '',
       56: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
-    },
+
+},
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
@@ -187,7 +189,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'WBNB',
     lpAddresses: {
       97: '',
-      56: '0x1b96b92314c44b159149f7e0303511fb2fc4774f', // BNB-BUSD LP
+      56: '0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16', // BNB-BUSD LP
     },
     tokenSymbol: 'WBNB',
     tokenAddresses: {
@@ -204,7 +206,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'USDT',
     lpAddresses: {
       97: '',
-      56: '0xc15fa3e22c912a276550f3e5fe3b0deb87b55acd', // USDT-BUSD LP
+      56: '0x7EFaEf62fDdCCa950418312c6C91Aef321375A00', // USDT-BUSD LP
     },
     tokenSymbol: 'USDT',
     tokenAddresses: {
@@ -218,15 +220,15 @@ const farms: FarmConfig[] = [
     pid: 13,
     risk: 2,
     isTokenOnly: true,
-    lpSymbol: 'BTCB',
+    lpSymbol: 'ETH',
     lpAddresses: {
       97: '',
-      56: '0xb8875e207ee8096a929d543c9981c9586992eacb', // BTCB-BUSD LP
+      56: '0x7213a321f1855cf1779f42c0cd85d3d95291d34c', // ETH-BUSD LP
     },
-    tokenSymbol: 'BTCB',
+    tokenSymbol: 'ETH',
     tokenAddresses: {
       97: '',
-      56: '0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c',
+      56: '0x2170ed0880ac9a755fd29b2688956bd959f933f8',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -235,15 +237,15 @@ const farms: FarmConfig[] = [
     pid: 14,
     risk: 2,
     isTokenOnly: true,
-    lpSymbol: 'ETH',
+    lpSymbol: 'BTCB',
     lpAddresses: {
       97: '',
-      56: '0xd9a0d1f5e02de2403f68bb71a15f8847a854b494', // ETH-BUSD LP
+      56: '0xF45cd219aEF8618A92BAa7aD848364a158a24F33', // BTCB-BUSD LP
     },
-    tokenSymbol: 'ETH',
+    tokenSymbol: 'BTCB',
     tokenAddresses: {
       97: '',
-      56: '0x2170ed0880ac9a755fd29b2688956bd959f933f8',
+      56: '0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -255,7 +257,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'DAI',
     lpAddresses: {
       97: '',
-      56: '0x3ab77e40340ab084c3e23be8e5a6f7afed9d41dc', // DAI-BUSD LP
+      56: '0x66FDB2eCCfB58cF098eaa419e5EfDe841368e489', // DAI-BUSD LP
     },
     tokenSymbol: 'DAI',
     tokenAddresses: {
@@ -272,7 +274,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'USDC',
     lpAddresses: {
       97: '',
-      56: '0x680dd100e4b394bda26a59dd5c119a391e747d18', // USDC-BUSD LP
+      56: '0x2354ef4DF11afacb85a5C7f98B624072ECcddbB1', // USDC-BUSD LP
     },
     tokenSymbol: 'USDC',
     tokenAddresses: {
@@ -289,7 +291,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'DOT',
     lpAddresses: {
       97: '',
-      56: '0x54c1ec2f543966953f2f7564692606ea7d5a184e', // DOT-BUSD LP
+      56: '0x9fdaab9312084298d210b8789629d3054230e998', // DOT-BUSD LP
     },
     tokenSymbol: 'DOT',
     tokenAddresses: {
