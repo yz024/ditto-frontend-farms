@@ -1,4 +1,3 @@
-jason, [5 May 2021 at 10:17:30 AM]:
 import contracts from './contracts'
 import { FarmConfig, QuoteToken } from './types'
 
