@@ -8,12 +8,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'SQR-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x2628f71dd1928a4b39bd5fd4aea37905891229fc',
+      56: '0x6a8ce6189fb71dcd65d93dee99c9fa1980f7f61b',
     },
     tokenSymbol: 'SQR',
     tokenAddresses: {
       97: '',
-      56: '0xEa5a3BFe81eEAf53ee202D222F3bcd8812eb86f5',
+      56: '0xE7E55bC735260FcFb6f86877ee111e0880220510',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -24,12 +24,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'SQR-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0x55fd2d62430186c7b9022843b58e197a4999b11e',
+      56: '0x392dd601a9960aff3ea158800ad079ec99ef2138',
     },
     tokenSymbol: 'SQR',
     tokenAddresses: {
       97: '',
-      56: '0xEa5a3BFe81eEAf53ee202D222F3bcd8812eb86f5',
+      56: '0xE7E55bC735260FcFb6f86877ee111e0880220510',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -153,12 +153,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'SQR',
     lpAddresses: {
       97: '',
-      56: '0x2628f71dd1928a4b39bd5fd4aea37905891229fc', // EGG-BUSD LP
+      56: '0x6a8ce6189fb71dcd65d93dee99c9fa1980f7f61b', // EGG-BUSD LP
     },
     tokenSymbol: 'SQR',
     tokenAddresses: {
       97: '',
-      56: '0xEa5a3BFe81eEAf53ee202D222F3bcd8812eb86f5',
+      56: '0xE7E55bC735260FcFb6f86877ee111e0880220510',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -170,7 +170,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BUSD',
     lpAddresses: {
       97: '',
-      56: '0x2628f71dd1928a4b39bd5fd4aea37905891229fc', // EGG-BUSD LP (BUSD-BUSD will ignore)
+      56: '0x6a8ce6189fb71dcd65d93dee99c9fa1980f7f61b', // EGG-BUSD LP (BUSD-BUSD will ignore)
     },
     tokenSymbol: 'BUSD',
     tokenAddresses: {
