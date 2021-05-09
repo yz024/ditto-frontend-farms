@@ -5,12 +5,12 @@ const farms: FarmConfig[] = [
   {
     pid: 0,
     risk: 5,
-    lpSymbol: 'SQR-BUSD LP',
+    lpSymbol: 'SSJ-BUSD LP',
     lpAddresses: {
       97: '',
       56: '0x6a8ce6189fb71dcd65d93dee99c9fa1980f7f61b',
     },
-    tokenSymbol: 'SQR',
+    tokenSymbol: 'SSJ',
     tokenAddresses: {
       97: '',
       56: '0xE7E55bC735260FcFb6f86877ee111e0880220510',
@@ -21,12 +21,12 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'SQR-BNB LP',
+    lpSymbol: 'SSJ-BNB LP',
     lpAddresses: {
       97: '',
       56: '0x392dd601a9960aff3ea158800ad079ec99ef2138',
     },
-    tokenSymbol: 'SQR',
+    tokenSymbol: 'SSJ',
     tokenAddresses: {
       97: '',
       56: '0xE7E55bC735260FcFb6f86877ee111e0880220510',
@@ -150,12 +150,12 @@ const farms: FarmConfig[] = [
     pid: 9,
     risk: 5,
     isTokenOnly: true,
-    lpSymbol: 'SQR',
+    lpSymbol: 'SSJ',
     lpAddresses: {
       97: '',
       56: '0x6a8ce6189fb71dcd65d93dee99c9fa1980f7f61b', // EGG-BUSD LP
     },
-    tokenSymbol: 'SQR',
+    tokenSymbol: 'SSJ',
     tokenAddresses: {
       97: '',
       56: '0xE7E55bC735260FcFb6f86877ee111e0880220510',
