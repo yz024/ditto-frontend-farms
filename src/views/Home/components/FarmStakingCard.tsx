@@ -69,7 +69,7 @@ const FarmedStakingCard = () => {
   // toChange
 
   return (
-    <StyledFarmStakingCard style="box-shadow: 120px 80px 40px 20px #0ff;">
+    <StyledFarmStakingCard style={{boxShadow: "120px 80px 40px 20px #0ff">
       <CardBody>
         <Heading size="xl" mb="24px">
           {TranslateString(542, 'Farms & Staking')}
