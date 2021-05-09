@@ -49,9 +49,9 @@ const App: React.FC = () => {
             <Route path="/farms">
               <Farms />
             </Route>
-            {/* <Route path="/nests">
+            <Route path="/nests">
               <Farms tokenMode />
-            </Route> */}
+            </Route>
             <Route path="/soon">
               <Page>
                 <Heading as="h1" size="lg" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
