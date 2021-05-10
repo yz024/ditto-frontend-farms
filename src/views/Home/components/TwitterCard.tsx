@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card, CardBody, Heading, Text } from '@pancakeswap-libs/uikit'
 import BigNumber from 'bignumber.js/bignumber'
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
 import { Timeline } from 'react-twitter-widgets'
 import { getBalanceNumber } from 'utils/formatBalance'
 import { useTotalSupply, useBurnedBalance } from 'hooks/useTokenBalance'
@@ -10,9 +10,19 @@ import { getCakeAddress } from 'utils/addressHelpers'
 import CardValue from './CardValue'
 import { useFarms } from '../../../state/hooks'
 
+const Glow = keyframes`
+  from {
+    box-shadow:0px 0px 5px 2px #00FFFF;
+  }
+  to {
+    box-shadow:0px 0px 20px 10px #00FFFF;
+  }
+`
+
 const StyledTwitterCard = styled(Card)`
   margin-left: auto;
   margin-right: auto;
+  animation: ${Glow} 1s infinite alternate;
 `
 
 const Row = styled.div`

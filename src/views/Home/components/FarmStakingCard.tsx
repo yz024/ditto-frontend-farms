@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react'
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
 import { Heading, Card, CardBody, Button } from '@pancakeswap-libs/uikit'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
 import BigNumber from 'bignumber.js'
@@ -15,12 +15,22 @@ import { getCakeAddress } from '../../../utils/addressHelpers'
 import useAllEarnings from '../../../hooks/useAllEarnings'
 import { getBalanceNumber } from '../../../utils/formatBalance'
 
+const Glow = keyframes`
+  from {
+    box-shadow:0px 0px 5px 2px #00FFFF;
+  }
+  to {
+    box-shadow:0px 0px 20px 10px #00FFFF;
+  }
+`
+
 const StyledFarmStakingCard = styled(Card)`
   background-image: url('/images/egg/2a.png');
   background-repeat: no-repeat;
   background-position: top right;
   min-height: 376px;
   background-size: 100%;
+  animation: ${Glow} 1s infinite alternate;
 `
 
 const Block = styled.div`
