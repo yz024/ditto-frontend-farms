@@ -29,7 +29,7 @@ const StyledFarmStakingCard = styled(Card)`
   background-repeat: no-repeat;
   background-position: top right;
   min-height: 376px;
-  background-size: 50%;
+  background-size: 40%;
   animation: ${Glow} 1s infinite alternate;
 `
 
