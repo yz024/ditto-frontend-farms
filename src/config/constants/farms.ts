@@ -170,7 +170,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BUSD',
     lpAddresses: {
       97: '',
-      56: '0x6a8ce6189fb71dcd65d93dee99c9fa1980f7f61b', // EGG-BUSD LP (BUSD-BUSD will ignore)
+      56: '', // EGG-BUSD LP (BUSD-BUSD will ignore)
     },
     tokenSymbol: 'BUSD',
     tokenAddresses: {
