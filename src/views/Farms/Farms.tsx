@@ -100,7 +100,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
             TranslateString(320, 'TURN SUPER SAIYAN!')
         }
       </Heading>
-      <Text color="secondary">Farming starts on BLOCK 7403888</Text>
+      <Text color="secondary" style={{textAlign: 'center', display:'flex'}}>Farming starts on BLOCK 7403888</Text>
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly} />
       <div>
         <Divider />
