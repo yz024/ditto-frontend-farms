@@ -95,11 +95,12 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
       <Heading as="h1" size="lg" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
         {
           tokenMode ?
-            TranslateString(10002, 'Stake tokens to earn AOT')
+            TranslateString(10002, 'TURN SUPER SAIYAN!')
             :
-            TranslateString(320, 'Stake LP tokens to earn AOT')
+            TranslateString(320, 'TURN SUPER SAIYAN!')
         }
       </Heading>
+      <Text color="secondary">Farming starts on BLOCK 7403888</Text>
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly} />
       <div>
         <Divider />
