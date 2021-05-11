@@ -55,7 +55,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Docs',
-        href: '/soon',
+        href: 'https://saiyanswap.gitbook.io/saiyan-swap/',
       },
       // {
       //   label: 'Blog',
