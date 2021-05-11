@@ -51,16 +51,16 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/squirtlefinance',
+        href: 'https://github.com/SaiyanSwap',
       },
       {
         label: 'Docs',
-        href: 'https://squirtle-finance.gitbook.io/squirtle-finance/',
+        href: '/soon',
       },
-      {
-        label: 'Blog',
-        href: 'https://squirtle-finance.medium.com/'
-      },
+      // {
+      //   label: 'Blog',
+      //   href: '/soon'
+      // },
     ],
   },
 ]

@@ -8,12 +8,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'SSJ-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x6a8ce6189fb71dcd65d93dee99c9fa1980f7f61b',
+      56: '',
     },
     tokenSymbol: 'SSJ',
     tokenAddresses: {
       97: '',
-      56: '0xE7E55bC735260FcFb6f86877ee111e0880220510',
+      56: '0xcC7bcFDaeDDccE625cb013Cae4C2B9a1272aC45b',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -24,12 +24,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'SSJ-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0x392dd601a9960aff3ea158800ad079ec99ef2138',
+      56: '',
     },
     tokenSymbol: 'SSJ',
     tokenAddresses: {
       97: '',
-      56: '0xE7E55bC735260FcFb6f86877ee111e0880220510',
+      56: '0xcC7bcFDaeDDccE625cb013Cae4C2B9a1272aC45b',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -153,12 +153,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'SSJ',
     lpAddresses: {
       97: '',
-      56: '0x6a8ce6189fb71dcd65d93dee99c9fa1980f7f61b', // EGG-BUSD LP
+      56: '', // EGG-BUSD LP
     },
     tokenSymbol: 'SSJ',
     tokenAddresses: {
       97: '',
-      56: '0xE7E55bC735260FcFb6f86877ee111e0880220510',
+      56: '0xcC7bcFDaeDDccE625cb013Cae4C2B9a1272aC45b',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
