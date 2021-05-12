@@ -63,6 +63,11 @@ const config: MenuEntry[] = [
       // },
     ],
   },
+  {
+    label: 'Techrate Audit (Requested)',
+    icon: 'AuditIcon',
+    href: '/',
+  }
 ]
 
 export default config

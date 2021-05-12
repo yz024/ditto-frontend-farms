@@ -34,12 +34,12 @@ const Glow = keyframes`
     box-shadow:0px 0px 5px 2px #ffdd00;
   }
   to {
-    box-shadow:0px 0px 20px 10px #ffdd00;
+    box-shadow:0px 0px 10px 5px #ffdd00;
   }
 `
 
 const StyledCardAccent = styled.div`
-  animation: ${Glow} 1s infinite linear;
+  animation: ${Glow} 1s infinite alternate;
   border-radius: 16px;
   filter: blur(6px);
   position: absolute;
