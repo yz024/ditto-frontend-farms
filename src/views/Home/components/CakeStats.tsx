@@ -11,10 +11,10 @@ import { useFarms, usePriceCakeBusd } from '../../../state/hooks'
 
 const Glow = keyframes`
   from {
-    box-shadow:0px 0px 5px 2px #00FFFF;
+    box-shadow:0px 0px 5px 2px #ffdd00;
   }
   to {
-    box-shadow:0px 0px 20px 10px #00FFFF;
+    box-shadow:0px 0px 20px 10px #ffdd00;
   }
 `
 
