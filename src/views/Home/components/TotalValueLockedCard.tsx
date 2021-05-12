@@ -11,7 +11,7 @@ const Glow = keyframes`
     box-shadow:0px 0px 5px 2px #ffdd00;
   }
   to {
-    box-shadow:0px 0px 20px 10px #ffdd00;
+    box-shadow:0px 0px 15px 7px #ffdd00;
   }
 `
 
