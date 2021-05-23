@@ -2,12 +2,12 @@ import { MenuEntry } from '@pancakeswap-libs/uikit'
 
 const config: MenuEntry[] = [
   {
-    label: 'Planet Earth',
+    label: 'Home',
     icon: 'HomeIcon',
     href: '/',
   },
   {
-    label: 'Saiyan Swap',
+    label: 'Trade',
     icon: 'TradeIcon',
     items: [
       {
@@ -21,12 +21,12 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Planet Vegeta',
+    label: 'Farms',
     icon: 'FarmIcon',
     href: '/farms',
   },
   {
-    label: 'Planet Namek',
+    label: 'Nests',
     icon: 'PoolIcon',
     href: '/nests',
   },
@@ -63,11 +63,6 @@ const config: MenuEntry[] = [
       // },
     ],
   },
-  {
-    label: 'Techrate Audit (Requested)',
-    icon: 'AuditIcon',
-    href: '/',
-  }
 ]
 
 export default config

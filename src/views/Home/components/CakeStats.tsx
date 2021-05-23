@@ -21,7 +21,6 @@ const Glow = keyframes`
 const StyledCakeStats = styled(Card)`
   margin-left: auto;
   margin-right: auto;
-  animation: ${Glow} 1s infinite alternate;
 `
 
 const Row = styled.div`

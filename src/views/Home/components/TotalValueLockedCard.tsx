@@ -19,7 +19,6 @@ const StyledTotalValueLockedCard = styled(Card)`
   align-items: center;
   display: flex;
   flex: 1;
-  animation: ${Glow} 1s infinite alternate;
 `
 
 const TotalValueLockedCard = () => {

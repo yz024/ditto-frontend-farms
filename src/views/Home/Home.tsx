@@ -61,10 +61,9 @@ const Home: React.FC = () => {
     <Page>
       <Hero>
         <Heading as="h1" size="xxl" mb="24px" color="secondary">
-          {TranslateString(576, 'Saiyan Swap')}
+          {TranslateString(576, 'Ditto Swap')}
         </Heading>
-        <Text>{TranslateString(578, 'LEGENDARY yield farm on Binance Smart Chain')}</Text>
-        <Text>FOR SAIYANS ONLY</Text>
+        <Text>{TranslateString(578, 'Yield farm on Binance Smart Chain')}</Text>
       </Hero>
       <div>
         <Cards>

@@ -51,9 +51,14 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
   // toChange
 
   return (
-    <Text>Shown when farm starts</Text>
+    <Text> </Text>
   )
-  // <Wrapper>
+
+}
+
+export default DetailsSection
+
+// <Wrapper>
   //   <Flex justifyContent="space-between">
   //     <Text>{TranslateString(316, 'Stake')}:</Text>
   //     <StyledLinkExternal href={
@@ -77,6 +82,3 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
   //     </Link>
   //   </Flex>
   // </Wrapper>
-}
-
-export default DetailsSection

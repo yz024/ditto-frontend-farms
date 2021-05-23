@@ -22,7 +22,6 @@ const Glow = keyframes`
 const StyledTwitterCard = styled(Card)`
   margin-left: auto;
   margin-right: auto;
-  animation: ${Glow} 1s infinite alternate;
 `
 
 const Row = styled.div`
@@ -47,7 +46,7 @@ const TwitterCard = () => {
         <Timeline
           dataSource={{
             sourceType: 'profile',
-            screenName: 'SaiyanSwap'
+            screenName: 'DittoSwap'
           }}
           options={{
             height: '300',

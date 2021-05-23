@@ -75,7 +75,7 @@
     {
       "data": {
         "stringId": 304,
-        "text": "Total SSJ burned since launch"
+        "text": "Total DIT burned since launch"
       }
     },
     {
@@ -123,13 +123,13 @@
     {
       "data": {
         "stringId": 320,
-        "text": "TURN SUPER SAIYAN!"
+        "text": "EARN MORE DIT TOKENS!"
       }
     },
     {
       "data": {
         "stringId": 322,
-        "text": "Stake SSJ"
+        "text": "Stake DIT"
       }
     },
     {
@@ -153,7 +153,7 @@
     {
       "data": {
         "stringId": 334,
-        "text": "Every time you stake and unstake SSJ tokens, the contract will automatically harvest SSJ rewards for you!"
+        "text": "Every time you stake and unstake DIT tokens, the contract will automatically harvest DIT rewards for you!"
       }
     },
     {
@@ -219,7 +219,7 @@
     {
       "data": {
         "stringId": 358,
-        "text": "Saiyan price"
+        "text": "Ditto price"
       }
     },
     {
@@ -243,7 +243,7 @@
     {
       "data": {
         "stringId": 380,
-        "text": "1 SSJ = 1 SYRUP"
+        "text": "1 DIT = 1 SYRUP"
       }
     },
     {
@@ -291,7 +291,7 @@
     {
       "data": {
         "stringId": 400,
-        "text": "SYRUP holders proportionally split 25% of SSJ block emissions each day (10 SSJ per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 25% of DIT block emissions each day (10 DIT per block), Rewards are distributed each block."
       }
     },
     {
@@ -351,13 +351,13 @@
     {
       "data": {
         "stringId": 424,
-        "text": "%num% SSJ"
+        "text": "%num% DIT"
       }
     },
     {
       "data": {
         "stringId": 426,
-        "text": "Spend SSJ to buy tickets, contributing to the lottery pot. Ticket purchases end approx. 30 minutes before lottery. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their positions! Good luck!"
+        "text": "Spend DIT to buy tickets, contributing to the lottery pot. Ticket purchases end approx. 30 minutes before lottery. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their positions! Good luck!"
       }
     },
     {
@@ -435,19 +435,19 @@
     {
       "data": {
         "stringId": 454,
-        "text": "%num% SSJ Available"
+        "text": "%num% DIT Available"
       }
     },
     {
       "data": {
         "stringId": 456,
-        "text": "Your amount must be a multiple of 10 SSJ"
+        "text": "Your amount must be a multiple of 10 DIT"
       }
     },
     {
       "data": {
         "stringId": 458,
-        "text": "1 Ticket = 10 SSJ"
+        "text": "1 Ticket = 10 DIT"
       }
     },
     {
@@ -495,7 +495,7 @@
     {
       "data": {
         "stringId": 478,
-        "text": "Ticket purchases are final. Your SSJ cannot be returned to you after buying tickets."
+        "text": "Ticket purchases are final. Your DIT cannot be returned to you after buying tickets."
       }
     },
     {
@@ -507,7 +507,7 @@
     {
       "data": {
         "stringId": 482,
-        "text": "SSJ prizes to be claimed"
+        "text": "DIT prizes to be claimed"
       }
     },
     {
@@ -543,13 +543,13 @@
     {
       "data": {
         "stringId": 494,
-        "text": "Approve SSJ"
+        "text": "Approve DIT"
       }
     },
     {
       "data": {
         "stringId": 496,
-        "text": "SYRUP holders proportionally split 40% of SSJ block emissions each day (10 SSJ per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 40% of DIT block emissions each day (10 DIT per block), Rewards are distributed each block."
       }
     },
     {
@@ -567,19 +567,19 @@
     {
       "data": {
         "stringId": 504,
-        "text": "You\u2019ll pay for the new tokens using SSJ-BNB LP tokens, which means you need to stake equal amounts of SSJ and BNB in a liquidity pool to take part."
+        "text": "You\u2019ll pay for the new tokens using DIT-BNB LP tokens, which means you need to stake equal amounts of DIT and BNB in a liquidity pool to take part."
       }
     },
     {
       "data": {
         "stringId": 506,
-        "text": "Get SSJ-BNB LP >"
+        "text": "Get DIT-BNB LP >"
       }
     },
     {
       "data": {
         "stringId": 508,
-        "text": "The project gets the BNB, Saiyan Swap burns the SSJ."
+        "text": "The project gets the BNB, Ditto Swap burns the DIT."
       }
     },
     {
@@ -597,7 +597,7 @@
     {
       "data": {
         "stringId": 514,
-        "text": "Launch your project with Saiyan Swap, Binance Smart Chain\u2019s most-used AMM project and liquidity provider, to bring your token directly to the most active and rapidly growing community on BSC."
+        "text": "Launch your project with Ditto Swap, Binance Smart Chain\u2019s most-used AMM project and liquidity provider, to bring your token directly to the most active and rapidly growing community on BSC."
       }
     },
     {
@@ -645,7 +645,7 @@
     {
       "data": {
         "stringId": 534,
-        "text": "Saiyan Stats"
+        "text": "Ditto Stats"
       }
     },
     {
@@ -663,7 +663,7 @@
     {
       "data": {
         "stringId": 540,
-        "text": "New SSJ\/block"
+        "text": "New DIT\/block"
       }
     },
     {
@@ -675,19 +675,19 @@
     {
       "data": {
         "stringId": 544,
-        "text": "SSJ to Harvest"
+        "text": "DIT to Harvest"
       }
     },
     {
       "data": {
         "stringId": 546,
-        "text": "SSJ in Wallet"
+        "text": "DIT in Wallet"
       }
     },
     {
       "data": {
         "stringId": 548,
-        "text": "Collecting SSJ"
+        "text": "Collecting DIT"
       }
     },
     {
@@ -699,7 +699,7 @@
     {
       "data": {
         "stringId": 552,
-        "text": "SSJ to Collect"
+        "text": "DIT to Collect"
       }
     },
     {
@@ -753,7 +753,7 @@
     {
       "data": {
         "stringId": 576,
-        "text": "Saiyan Swap"
+        "text": "Ditto Swap"
       }
     },
     {
@@ -765,7 +765,7 @@
     {
       "data": {
         "stringId": 580,
-        "text": "Stake SSJ to earn new tokens."
+        "text": "Stake DIT to earn new tokens."
       }
     },
     {
@@ -783,7 +783,7 @@
     {
       "data": {
         "stringId": 586,
-        "text": "SSJ to burn (USD)"
+        "text": "DIT to burn (USD)"
       }
     },
     {
@@ -795,7 +795,7 @@
     {
       "data": {
         "stringId": 590,
-        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest SSJ rewards for you!"
+        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest DIT rewards for you!"
       }
     },
     {
@@ -813,13 +813,13 @@
     {
       "data": {
         "stringId": 596,
-        "text": "Buy SSJ and BNB tokens"
+        "text": "Buy DIT and BNB tokens"
       }
     },
     {
       "data": {
         "stringId": 598,
-        "text": "Get SSJ-BNB LP tokens by adding SSJ and BNB liquidity"
+        "text": "Get DIT-BNB LP tokens by adding DIT and BNB liquidity"
       }
     },
     {
@@ -831,7 +831,7 @@
     {
       "data": {
         "stringId": 602,
-        "text": "While the sale is live, commit your SSJ-LP tokens to buy the IFO tokens"
+        "text": "While the sale is live, commit your DIT-LP tokens to buy the IFO tokens"
       }
     },
     {
@@ -867,7 +867,7 @@
     {
       "data": {
         "stringId": 614,
-        "text": "Trade in for SSJ, or keep for your collection!"
+        "text": "Trade in for DIT, or keep for your collection!"
       }
     },
     {
@@ -909,7 +909,7 @@
     {
       "data": {
         "stringId": 628,
-        "text": "When you trade in this NFT to receive SSJ, you will lose access to it forever!"
+        "text": "When you trade in this NFT to receive DIT, you will lose access to it forever!"
       }
     },
     {
@@ -939,7 +939,7 @@
     {
       "data": {
         "stringId": 638,
-        "text": "Winners can trade in their NFTs for a SSJ value until the expiry date written below. If you don't trade in your NFT by then, don\u2019t worry: you\u2019ll still keep it in your wallet!"
+        "text": "Winners can trade in their NFTs for a DIT value until the expiry date written below. If you don't trade in your NFT by then, don\u2019t worry: you\u2019ll still keep it in your wallet!"
       }
     },
     {
@@ -981,7 +981,7 @@
     {
       "data": {
         "stringId": 654,
-        "text": "Trade in for SSJ"
+        "text": "Trade in for DIT"
       }
     },
     {
@@ -1107,7 +1107,7 @@
     {
       "data": {
         "stringId": 696,
-        "text": "Stake LP tokens to earn SSJ"
+        "text": "Stake LP tokens to earn DIT"
       }
     },
     {
@@ -1149,13 +1149,13 @@
     {
       "data": {
         "stringId": 708,
-        "text": "The SSJ Lottery"
+        "text": "The DIT Lottery"
       }
     },
     {
       "data": {
         "stringId": 710,
-        "text": "Buy tickets with SSJ"
+        "text": "Buy tickets with DIT"
       }
     },
     {
@@ -1209,7 +1209,7 @@
     {
       "data": {
         "stringId": 10000,
-        "text": "Deposit Fee will be used to buyback SSJ"
+        "text": "Deposit Fee will be used to buyback DIT"
       }
     },
     {
@@ -1221,7 +1221,7 @@
     {
       "data": {
         "stringId": 10002,
-        "text": "TURN SUPER SAIYAN!"
+        "text": "EARN MORE DIT TOKENS!"
       }
     },
     {
